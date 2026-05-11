@@ -53,13 +53,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-    <version>4.0.6</version>
+				<version>4.0.6</version>
     <configuration>
         <mainClass>com.yourpackage.FlightSystemApplication</mainClass>
     </configuration>
-</plugin>
+			</plugin>
 		</plugins>
 	</build>
 
